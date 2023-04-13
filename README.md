@@ -1,5 +1,5 @@
 <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMmtmeHN1MzdpMGR6Mjc3MWVmbXNuNHExcG93bDgyZmUxYnN0eTZ0NCZjdD1z/L0t5istHtiDgJ40PZw/giphy.gif" width="50"></h2>
-<h2> Hi, I'm Kim! <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMjFhMDU3Yjg4NDU2NTlkZDI0MzQ5Mzk4MDNjNjU0ZmY5YjBjNjAwYyZjdD1z/A9dZqpVpbLsju/giphy.gif" width="50"></h2>
+<h2> Hi, I'm Kim! <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMjFhMDU3Yjg4NDU2NTlkZDI0MzQ5Mzk4MDNjNjU0ZmY5YjBjNjAwYyZjdD1z/A9dZqpVpbLsju/giphy.gif" width="80"></h2>
 
 ```php
 <?php
@@ -26,7 +26,7 @@ class About extends Me
             Symfony::class,
             Json::class,
             MySQL::class,
-            Javascript::class,
+            JavaScript::class,
             Docker::class,
             PHPStorm::class,
             Jira::class,
@@ -38,7 +38,7 @@ class About extends Me
          return [
             Festivals::class,
             Traveling::class,
-            Boardgames::class,
+            BoardGames::class,
             DungeonsAndDragons::class,
             Baking::class,
             Reading::class,
