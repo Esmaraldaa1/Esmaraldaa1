@@ -1,4 +1,5 @@
-<h2> Hi, I'm Kim! <img src="https://media.giphy.com/media/mGcNjsfWAjY5AEZNw6/giphy.gif" width="50"></h2>
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMmtmeHN1MzdpMGR6Mjc3MWVmbXNuNHExcG93bDgyZmUxYnN0eTZ0NCZjdD1z/L0t5istHtiDgJ40PZw/giphy.gif" width="50"></h2>
+<h2> Hi, I'm Kim! <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMjFhMDU3Yjg4NDU2NTlkZDI0MzQ5Mzk4MDNjNjU0ZmY5YjBjNjAwYyZjdD1z/A9dZqpVpbLsju/giphy.gif" width="50"></h2>
 
 ```php
 <?php
@@ -11,7 +12,7 @@ class About extends Me
     {
         return [
             'workplace' => [
-                'company' => 'Endeavour_Haarlem',
+                'company' => 'EndeavourHaarlem',
                 'position' => 'Intern'         
             ]
         ];
@@ -31,10 +32,22 @@ class About extends Me
             Jira::class,
         ];
     }
+    
+    public function getInterests(); array
+   {
+         return [
+            Festivals::class,
+            Traveling::class,
+            Boardgames::class,
+            DungeonsAndDragons::class,
+            Baking::class,
+            Reading::class,
+         ];
+    }
 
     public function getFutureGoal(): string
     {
-        return 'To get a job as a junior backend developer.';
+        return 'To get a job as a junior back-end developer.';
     }
 }
 ```
