@@ -1,16 +1,41 @@
-### Hi there 👋
+<h2> Hi, I'm Kim! <img src="https://media.giphy.com/media/mGcNjsfWAjY5AEZNw6/giphy.gif" width="50"></h2>
 
-<!--
-**Esmaraldaa1/Esmaraldaa1** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+```php
+<?php
 
-Here are some ideas to get you started:
+namespace KimQuax;
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+class About extends Me
+{
+    public function getCurrentWorkplace(): array
+    {
+        return [
+            'workplace' => [
+                'company' => 'Endeavour_Haarlem',
+                'position' => 'Intern'         
+            ]
+        ];
+    }
+
+    public function getDailyKnowledge(): array
+    {
+        return [
+            Php::class,
+            Laravel::class,
+            Symfony::class,
+            Json::class,
+            MySQL::class,
+            Javascript::class,
+            Docker::class,
+            PHPStorm::class,
+            Jira::class,
+        ];
+    }
+
+    public function getFutureGoal(): string
+    {
+        return 'To get a job as a junior backend developer.';
+    }
+}
+```
+ [![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=Esmaraldaa1&theme=onedark)](https://git.io/streak-stats) 
