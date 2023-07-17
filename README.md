@@ -12,8 +12,8 @@ class About extends Me
     {
         return [
             'workplace' => [
-                'company' => 'EndeavourHaarlem',
-                'position' => 'Intern'         
+                'company' => 'CleanUpp',
+                'position' => 'Software Developer(back-end)'         
             ]
         ];
     }
@@ -29,7 +29,7 @@ class About extends Me
             JavaScript::class,
             Docker::class,
             PHPStorm::class,
-            Jira::class,
+            Azure::class,
         ];
     }
     
@@ -47,7 +47,7 @@ class About extends Me
 
     public function getFutureGoal(): string
     {
-        return 'To get a job as a junior back-end developer.';
+        return 'Travel more.';
     }
 }
 ```
