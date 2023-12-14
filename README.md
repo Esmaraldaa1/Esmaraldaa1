@@ -22,6 +22,7 @@ class About extends Me
     {
         return [
             Php::class,
+            CakePHP:class,
             Laravel::class,
             Symfony::class,
             Json::class,
@@ -33,7 +34,7 @@ class About extends Me
         ];
     }
     
-    public function getInterests(); array
+    public function getInterests(): array
    {
          return [
             Festivals::class,
