@@ -22,7 +22,7 @@ class About extends Me
     {
         return [
             Php::class,
-            CakePHP:class,
+            CakePHP::class,
             Laravel::class,
             Symfony::class,
             Json::class,
