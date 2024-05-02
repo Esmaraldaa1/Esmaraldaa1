@@ -12,7 +12,7 @@ class About extends Me
     {
         return [
             'workplace' => [
-                'company' => 'CleanUpp',
+                'company' => 'Grip Online',
                 'position' => 'Software Developer(back-end)'         
             ]
         ];
