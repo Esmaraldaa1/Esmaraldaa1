@@ -8,45 +8,46 @@ namespace KimQuax;
 
 class About extends Me
 {
-    public function getCurrentWorkplace(): array
+    public function getCurrentWorkplace()
     {
         return [
             'workplace' => [
                 'company' => 'Grip Online',
-                'position' => 'Software Developer(back-end)'         
+                'position' => 'Software Developer(back-end)'
             ]
         ];
     }
 
-    public function getDailyKnowledge(): array
+    public function getDailyKnowledge()
     {
         return [
-            Php::class,
-            CakePHP::class,
-            Laravel::class,
-            Symfony::class,
-            Json::class,
-            MySQL::class,
-            JavaScript::class,
-            Docker::class,
-            PHPStorm::class,
-            Azure::class,
+            'PHP',
+            'CakePHP',
+            'Laravel',
+            'Symfony',
+            'XML,
+            'Json',
+            'MySQL',
+            'JavaScript',
+            'Docker',
+            'PHPStorm',
+            'Azure',
         ];
     }
-    
-    public function getInterests(): array
-   {
-         return [
-            Festivals::class,
-            Traveling::class,
-            BoardGames::class,
-            DungeonsAndDragons::class,
-            Baking::class,
-            Reading::class,
-         ];
+
+    public function getInterests()
+    {
+        return [
+            'Festivals',
+            'Traveling',
+            'BoardGames',
+            'DungeonsAndDragons',
+            'Baking',
+            'Reading',
+        ];
     }
 
-    public function getFutureGoal(): string
+    public function getFutureGoal()
     {
         return 'Travel more.';
     }
