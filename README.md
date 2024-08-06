@@ -25,7 +25,7 @@ class About extends Me
             'CakePHP',
             'Laravel',
             'Symfony',
-            'XML,
+            'XML',
             'Json',
             'MySQL',
             'JavaScript',
@@ -42,7 +42,7 @@ class About extends Me
             'Traveling',
             'BoardGames',
             'DungeonsAndDragons',
-            'Baking',
+            'Warhammer',
             'Reading',
         ];
     }
